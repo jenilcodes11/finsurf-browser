@@ -1,0 +1,35 @@
+/* DEBUG CSS - Add to styles.css temporarily to see layout boxes */
+
+/* Uncomment these lines and restart to see borders around each area:
+
+#app {
+    border: 3px solid red !important;
+}
+
+#tabs-bar {
+    border: 3px solid blue !important;
+}
+
+#nav-bar {
+    border: 3px solid green !important;
+}
+
+#content {
+    border: 3px solid purple !important;
+}
+
+.panel {
+    border: 3px solid orange !important;
+}
+
+#browser-area {
+    border: 3px solid pink !important;
+}
+
+#webview-container {
+    border: 3px solid cyan !important;
+}
+
+*/
+
+/* This will help you see which box is causing the problem! */

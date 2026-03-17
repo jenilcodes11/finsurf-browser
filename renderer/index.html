@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Quantsurf Browser</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Floating Tabs Bar -->
+        <div id="tabs-bar">
+            <div id="tabs"></div>
+            <button id="new-tab-btn">+</button>
+        </div>
+
+        <!-- Browser Overlay -->
+        <div id="browser-overlay">
+            <div class="nav-controls">
+                <button id="back-btn">←</button>
+                <button id="forward-btn">→</button>
+                <button id="reload-btn">⟳</button>
+            </div>
+            <div class="url-bar">
+                <input type="text" id="url-input" placeholder="Search or enter URL...">
+            </div>
+            <div class="nav-extras">
+                <button id="toggle-watchlist">📊</button>
+                <button id="toggle-news">📰</button>
+                <button id="hide-overlay-btn" title="Hide UI (Ctrl+/)">👁</button>
+            </div>
+        </div>
+        <!-- Content -->
+        <div id="content">
+            <!-- Watchlist Panel -->
+            <div id="watchlist-panel" class="panel">
+                <h3>Watchlist</h3>
+                <div class="panel-add-row">
+                    <input type="text" id="add-stock-input" placeholder="Add symbol (e.g. AAPL)">
+                    <button id="add-stock-btn">+</button>
+                </div>
+                <div id="watchlist-content"></div>
+            </div>
+
+            <!-- Browser Area -->
+            <div id="browser-area">
+                <div id="webview-container"></div>
+            </div>
+
+            <!-- News Panel -->
+            <div id="news-panel" class="panel">
+                <h3>News</h3>
+                <div class="panel-add-row">
+                    <input type="text" id="add-news-input" placeholder="Add URL (e.g. bloomberg.com)">
+                    <button id="add-news-btn">+</button>
+                </div>
+                <div id="news-content"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
