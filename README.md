@@ -243,6 +243,6 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 
 
-Open for contribution , it will be great to receive updates!
+
 
 
